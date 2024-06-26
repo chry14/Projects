@@ -1,1 +1,1 @@
-# Projects
+# Prime Number Check
