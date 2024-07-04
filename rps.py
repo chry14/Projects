@@ -5,7 +5,7 @@ player = input("Pick a number! \n 1. For Rock \n 2. For Paper \n 3. For Scissors
 
 playerchoice = int(player)
 
-if playerchoice < 1 | playerchoice > 5:
+if playerchoice < 1 or playerchoice > 5:
     sys.exit("You must pick 1, 2, 3, or 4")
 
 computerchoice = random.choice("123")
